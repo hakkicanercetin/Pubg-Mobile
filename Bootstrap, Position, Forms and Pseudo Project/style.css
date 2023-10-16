@@ -1,0 +1,135 @@
+section
+{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+nav
+{
+    background: linear-gradient(45deg,rgb(217, 217, 217),rgb(140,203,245));
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.my-img
+{
+    width: 50px;
+}
+nav .container .my-button
+{
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem; 
+    border: 1px solid white;
+}
+.modal-header
+{
+    background: linear-gradient(rgba(25, 136, 228,0.8), rgb(255, 255, 255))
+}
+.my-section 
+{
+  position: relative;
+  padding: 15rem 0;
+  background-image: url("https://www.pockettactics.com/wp-content/sites/pockettactics/2020/07/PUBG-Mobile-UC-.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.my-section:before 
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.my-section .my-section-content {
+  position: relative;
+  z-index: 1;
+}
+.my-second-button
+{
+    border: 1px solid white;border-radius: 50px;
+}
+nav .my-third-button
+{
+    width: 100%;
+    border-radius: 50px;
+}
+.my-second-section
+{
+    background: url("https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/bgOrange.svg");
+}
+.my-third-section
+{
+    background-image: linear-gradient(90deg,rgb(217, 217, 217),rgba(1, 146, 242,0.5));
+}
+.my-forth-section
+{
+    background: linear-gradient(90deg,rgb(217, 217, 217),rgba(1, 146, 242,0.5));
+}
+footer
+{
+    background-color: black;
+}
+footer a
+{
+    color: white !important;
+}
+.my-forth-section img
+{
+    height: 3rem;
+}
+.my-third-div img
+{
+    height: 3rem;
+}
+.my-fifth-section
+{
+    background-image: url("https://www.pubgmobile.com/images/event/PUBGMOBILE-WIKI7/arms_list_bg.jpg")
+}
+.my-second-section img
+{
+    height: 3rem;
+}
+nav .modal-close-button
+{
+    display: inline;padding: 15px;
+}
+header
+{
+  background-image: linear-gradient(45deg,rgba(1, 146, 242,0.5), rgb(217, 217, 217));
+}
+.guns-icon
+{
+  background-image: -webkit-linear-gradient(45deg,rgb(25, 136, 228), rgb(255, 255, 255));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2rem;
+}
+@media (max-width:992px) 
+{
+  .my-photo
+  {
+    max-width: 20rem !important;
+  }
+}
+@media (min-width:992px) {
+  
+  .baslik
+  {
+    font-size: 4.5rem;
+    font-weight: normal;
+  }
+}
+@media (max-width:992px) {
+  .baslik
+  {
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .baslik+p
+  {
+    font-size: 1.5rem;
+  }
+}
